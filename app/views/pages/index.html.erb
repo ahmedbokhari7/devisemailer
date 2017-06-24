@@ -128,6 +128,7 @@ Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante so
 <div class="well">
 <h4>Recent Posts</h4>
 <% @artcles.each do |a| %>
+Created by: <%= a.user %> <br /> 
 <strong><%= link_to a.title, a %></strong>
 <p><%=  truncate(a.body) %></p>
 <% end %>
