@@ -1,4 +1,4 @@
 git add -A
-git commit -m "first try"
+git commit -m "another push"
 git push origin master
 git push heroku master
