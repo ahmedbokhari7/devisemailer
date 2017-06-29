@@ -1,4 +1,3 @@
 git add -A
-git commit -m "another push"
-git push origin master
-git push heroku master
+git commit -m "adding comments"
+git push origin comments
