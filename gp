@@ -1,4 +1,4 @@
 git add -A
-git commit -m "another push"
+git commit -m "last push"
 git push origin master
 git push heroku master
